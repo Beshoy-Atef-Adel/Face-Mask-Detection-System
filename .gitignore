@@ -1,0 +1,31 @@
+# Datasets and training output (too large for git)
+dataset/
+data/images/
+data/annotations/
+data/labels.cache
+runs/
+
+# Pretrained models downloaded by ultralytics
+yolov8n.pt
+yolov8s.pt
+yolov8m.pt
+yolov8l.pt
+yolov8x.pt
+yolo26n.pt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

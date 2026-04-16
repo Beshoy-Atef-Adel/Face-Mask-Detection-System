@@ -1,10 +1,6 @@
-# المسار الرئيسي للمشروع (تأكد إنه نفس المسار اللي في الصورة عندك)
-path: D:/projects/FaceMask_FullProject/archive 
+path: ./dataset
+train: images/train
+val: images/val
 
-# أماكن الصور بالنسبة للمسار الرئيسي فوق
-train: images
-val: images
-
-# البيانات
-nc: 2
-names: ['With Mask', 'Without Mask']
+nc: 3
+names: ['with_mask', 'without_mask', 'mask_weared_incorrect']
